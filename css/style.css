@@ -1,0 +1,389 @@
+/* Base styles -- default styles */
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#1D1B1B;
+}
+
+h1,h2,h3{
+	margin:0px;
+	padding: 0px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000000;
+}
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+	color:white;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p,ul,ol{
+	margin-top:0;
+	line-height: 180%;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	color:#fe3472;
+}
+
+/* End of Base styles -- default styles */
+
+
+/* All the content with full width and centered. */
+.full_center {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+/* Header */
+#header{
+	margin: 0px auto;
+	background: #345c8f;
+}
+
+	#top_menu {
+		background: #3a4758;
+	}
+
+	#top_menu:after {
+		clear: both;
+		display: block;
+		content: "";
+	}
+
+		#top_menu ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		#top_menu li {
+			float: left;
+			line-height: 2em;
+		}
+
+			#top_menu li a {
+				padding: 0 10px;
+				color: #a2abb4;
+			}
+			#top_menu li a:hover {
+				color: #fff;
+			}
+
+
+	/* Logo */
+	#logo {
+		margin: 16px auto;
+		text-align: center;
+	}
+
+		#logo h1 {
+			margin: 0px;
+			font-size: 36px;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+
+			#logo h1 a {
+				text-decoration: none;
+				color: #fff;
+			}
+
+			#logo p {
+				text-transform: uppercase;
+				font-family: Arial;
+				font-size: 12px;
+				color:rgb(221, 248, 218);
+			}
+
+	/* Probably unused ... need to verify. */
+	#login_form{
+		margin:-60px auto;
+		float: right;
+		padding: 0px 10px;
+	}
+
+	/* TODO: to create widgets.css and shift these */
+	input[type="text"]{
+		background: #121;
+	}
+	input[type="password"]{
+		background: #121;
+	}
+
+
+
+	/* Menu */
+	#menu {
+		position: relative;
+		background: rgba(0, 0, 0, .1);
+		border-top: 1px solid rgba(0, 0, 0, .2);
+	}
+
+	#menu:after {
+		clear: both;
+		display: block;
+		content: " ";
+	}
+
+		#menu ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			position: relative;
+			/*display: none;*/
+
+		}
+
+	#menu ul > li {
+		float: none;
+		display: block;
+		text-align: center;
+		position: relative;
+	}
+
+	#menu ul li ul {
+		position: relative;
+		top: 0;
+		left: 0;
+		min-width: 150px;
+		background: #fff;
+		display: none;
+	}
+
+	#menu ul li ul li { 
+		background: #fff;
+		display: block; 
+		color: #444;
+		float: none;
+		min-width: 100px;
+		padding: 0 16px;
+	}
+
+	#menu ul li ul li:hover {
+		background: #889;
+	}
+
+	#menu a {
+		display: block;
+		height: 32px;
+		line-height: 32px;
+		padding: 0 16px;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+	#menu ul li:hover a {
+		background: rgba(0, 0, 0, .2);
+	}
+
+	#menu .active {
+		background: #000000;
+	}
+
+
+div#page{
+	width: 940px;
+	margin: 0px;
+	padding: 30px 0px;
+}
+#page-top{
+	padding: 10px 0px;
+}
+
+/* content */
+#content{
+	float: left;
+	width: 620px;
+	padding: 10px 0px 0px 0px;
+}
+
+
+.seminar {
+    float: right;
+    width: 200px;
+}
+.news {
+   margin: 0 250px;
+    width: 100px;
+}
+.notice {
+	 float: left;
+	 width: 150px;
+    
+}
+
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#sidebar{
+	float:right;
+	width: 280px;
+	padding: 0px;
+	color: #054A60;
+}
+
+#sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul{
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li{
+	line-height: 35px;
+	border-bottom: 1px dashed #D1D1D1;
+	margin: 0px 30px;
+	border-left: none;
+}
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding-left: 30px;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #FF0000;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	color: #054A60;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #054A60;
+}
+
+
+/** FOOTER */
+
+#footer-wrapper {
+	background:  url(images/img02.jpg) repeat-x left top;
+	height: 50px;
+	margin: 100px auto;
+
+	border:1px red solid;
+}
+
+#footer {
+	width: 950px;
+	height: 50px;
+	margin: 0px auto;
+	margin-bottom: 0px;
+	background:  url(images/img03.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	color: #133D47;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #133D47;
+}
+
+.highlight{
+	background-color: #ffc;
+	border: 1px solid #f99;
+	padding: 1px 3px;
+}
+
+
+
+
+
+/* Extra Small Devices, Phones */ 
+@media screen and (min-width : 320px) {
+	.full_center {
+		padding: 0 5px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (min-width : 768px) {
+	.full_center {
+		padding: 0 20px;
+	}
+
+	#menu ul {
+		display: block;
+	}
+
+		#menu ul > li {
+			float: left;
+			display: block;
+			text-align: left;
+		}
+
+		#menu ul > li > ul {
+			position: absolute;
+			top: 32px;
+			left: 0;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+		}
+
+		#menu ul li:hover ul {
+			display: block;
+			opacity: 1;
+			visibility: visible;
+		}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 992px) {
+	.full_center {
+		padding: 0 50px;
+	}
+
+}
+
+
