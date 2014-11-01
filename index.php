@@ -3,12 +3,12 @@ require('header.php');
 ?>
 <div id="page">
 	<div id="page-top">
-		<div id="content">
+		<div id="content" class="full_center">
 
 			 <div class='seminar'>
 		       <h3>Seminar</h3>
 				<a href="http://ku.edu.np/news/index.php?op=ViewArticle&amp;articleId=1000&amp;blogId=1">Notice - Interaction Program on Establishment of Kathmandu University Bus&nbsp;......&nbsp;[2014-09-21]</a>
-			
+				<a href="http://ku.edu.np/news/index.php?op=ViewArticle&amp;articleId=1000&amp;blogId=1">Notice - Interaction Program on Establishment of Kathmandu University Bus&nbsp;......&nbsp;[2014-09-21]</a>
 		    </div>
 		    <div class='notice'>
 		       <h3>Notice</h3>

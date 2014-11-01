@@ -223,8 +223,10 @@ div#page{
 
 /* content */
 #content{
-	float: left;
-	width: 620px;
+	margin:0 auto;
+	width: auto;
+	height: auto;
+	margin-left: 100px;
 	padding: 10px 0px 0px 0px;
 }
 
@@ -234,7 +236,7 @@ div#page{
     width: 200px;
 }
 .news {
-   margin: 0 250px;
+   margin: 0 350px;
     width: 100px;
 }
 .notice {
@@ -250,96 +252,36 @@ div#page{
 	font-weight: bold;
 }
 
-#sidebar{
-	float:right;
-	width: 280px;
-	padding: 0px;
-	color: #054A60;
-}
-
-#sidebar ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#sidebar li{
-	margin: 0;
-	padding: 0;
-}
-
-#sidebar li ul{
-	margin: 0px 0px;
-	padding-bottom: 30px;
-}
-
-#sidebar li li{
-	line-height: 35px;
-	border-bottom: 1px dashed #D1D1D1;
-	margin: 0px 30px;
-	border-left: none;
-}
-#sidebar li li span {
-	display: block;
-	margin-top: -20px;
-	padding: 0;
-	font-size: 11px;
-	font-style: italic;
-}
-
-#sidebar h2 {
-	height: 38px;
-	padding-left: 30px;
-	letter-spacing: -.5px;
-	font-size: 1.8em;
-	color: #FF0000;
-}
-
-#sidebar p {
-	margin: 0 0px;
-	padding: 0px 30px 20px 30px;
-	text-align: justify;
-}
-
-#sidebar a {
-	border: none;
-	color: #054A60;
-}
-
-#sidebar a:hover {
-	text-decoration: underline;
-	color: #054A60;
-}
 
 
 /** FOOTER */
 
-#footer-wrapper {
-	background:  url(images/img02.jpg) repeat-x left top;
+/*#footer-wrapper {
+	background: #1F4874 url(images/img02.jpg) repeat-x left top;
 	height: 50px;
 	margin: 100px auto;
 
 	border:1px red solid;
 }
+*/
 
 #footer {
-	width: 950px;
+	width: auto;
 	height: 50px;
-	margin: 0px auto;
-	margin-bottom: 0px;
-	background:  url(images/img03.jpg) no-repeat left top;
+	margin: 100px auto;
+	background: #1F4874 url(images/img02.jpg) repeat-x left top;
 }
 
 #footer p {
 	margin: 0px;
-	padding: 20px 0px 0px 0px;
+	padding: 2px 0px 0px 0px;
 	text-align: center;
-	color: #133D47;
+	color: #aaa;
 }
 
 #footer a {
 	text-decoration: none;
-	color: #133D47;
+	color: #aaa;
 }
 
 .highlight{
