@@ -89,15 +89,26 @@ a:hover{
 
 	/* Logo */
 	#logo {
-		margin: 16px auto;
+		margin: 5px auto;
 		text-align: center;
 	}
+		#logo img{
+			float:left;
+			width: 80px;
+			height: 70px;
+			position:relative;
+			left:350px;
+
+		}
+
 
 		#logo h1 {
+			position: relative;
 			margin: 0px;
 			font-size: 36px;
 			text-transform: uppercase;
 			font-weight: normal;
+			
 		}
 
 			#logo h1 a {
@@ -110,7 +121,10 @@ a:hover{
 				font-family: Arial;
 				font-size: 12px;
 				color:rgb(221, 248, 218);
+				
 			}
+
+	
 
 	/* Probably unused ... need to verify. */
 	#login_form{

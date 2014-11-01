@@ -23,9 +23,12 @@
 				</div>
 				<!-- end #top menu -->
 			<div id="logo">
+				<img id="main_logo" src="images/ku_logo.jpg"></img>
 				<div class="full_center">
+					
 					<h1><a href="index.php"><?php echo $site_name?></a></h1>
 					<p>Quality Education for Leadership</p>
+					
 				</div>
 			</div>
 			<div id="menu">
